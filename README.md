@@ -35,13 +35,13 @@ Dans ces deux volumes on peux y retrouver un dockerfile permettant l'installatio
 J'utilise l'image postgres sur laquelle dépend mon api pour fonctionner.
 Ainsi c'est mon api qui va fournir toutes les variables d'environnement nécessaire à la connexion à ma base de données postgre.
 
-Avec ***NGINX*** je définis le path api, qui seras utiliser par le front ***React*** pour la comunication client-server.
+Avec ***NGINX*** je définis le path api, qui sera utilisé par le front ***React*** pour la comunication client-server.
 
-J'ai ainsi bien 4 container comuniquant entre eux.
+J'ai ainsi bien 4 containers comuniquant entre eux.
 
 ![alt Exemple shema ilustration](./images/containers.png)  
 
-Dans mon docker-compose.yml je définis ainsi toutes les bonnes dépendance entre mes container.
+Dans mon docker-compose.yml je définis ainsi toutes les bonnes dépendances entre mes containers.
 
 
 
