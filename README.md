@@ -33,7 +33,19 @@ J'ai ainsi deux volumes.
 Dans ces deux volumes on peux y retrouver un dockerfile permettant l'installation du node-module et le lancement du projet.
 
 J'utilise l'image postgres sur laquel dépend mon api pour fonctionner.
-Ainsi c'est mon api qui vas fournirtoutes les variable d'environement nécessaire à la cnnexion à ma base de donnée postgre.
+Ainsi c'est mon api qui vas fournir toutes les variable d'environement nécessaire à la connexion à ma base de donnée postgre.
+
+Avec ***NGINX*** je définis le path api, qui seras utiliser par le front ***React*** pour la comunication client-server.
+
+J'ai ainsi bien 4 container comuniquant entre eux.
+
+![alt Exemple shema ilustration](./images/containers.png)  
+
+Dans mon docker-compose.yml je définis ainsi toutes les bonnes dépendance entre mes container.
+
+
+
+Je définis avec ***NGINX*** le port 3053 sur lequel l'ensemble seras disponible.
 
 
 
