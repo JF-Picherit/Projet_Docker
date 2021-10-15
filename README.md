@@ -3,17 +3,17 @@
 ### Description du projet :  
 
 Le projet consiste à faire comuniquer 4 container dans un environement Docker.
-Pour fair cela j'ai choisit un projet de test en début de développement.
+Pour faire cela j'ai choisi un projet de test en début de développement.
 Il s'agit d'une application type le bon coin mais pour les camions.
 
 Pour lancer le projet : ``docker-compose up --build``
 
 
-Puis diriger vous vers : ``http://localhost:3053/``
+Puis dirigez-vous vers : ``http://localhost:3053/``
 
 ![alt Exemple application](./images/Exemple1.PNG) 
 
-Cette aplication à besoin :
+Cette aplication a besoin :
 
 - d'un front ***React*** 
 - d'un back api ***NodeJs*** 
@@ -32,8 +32,8 @@ J'ai ainsi deux volumes.
 
 Dans ces deux volumes on peux y retrouver un dockerfile permettant l'installation du node-module et le lancement du projet.
 
-J'utilise l'image postgres sur laquel dépend mon api pour fonctionner.
-Ainsi c'est mon api qui vas fournir toutes les variable d'environement nécessaire à la connexion à ma base de donnée postgre.
+J'utilise l'image postgres sur laquelle dépend mon api pour fonctionner.
+Ainsi c'est mon api qui va fournir toutes les variables d'environnement nécessaire à la connexion à ma base de données postgre.
 
 Avec ***NGINX*** je définis le path api, qui seras utiliser par le front ***React*** pour la comunication client-server.
 
