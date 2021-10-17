@@ -11,6 +11,12 @@ Pour lancer le projet : ``docker-compose up --build``
 
 Puis dirigez-vous vers : ``http://localhost:3053/``
 
+Pour tester que le projet se lance bien, cliquer sur se connecter, puis crée un compte.
+Ensuite crée une ou plusieur annonces et vérifiés qu'elle s'affiche correctement. 
+(attention pour crée une annonce il faut pour l'instant mettre une image de petite taille, sinon l'annonce ne se crée pas...)
+Vous pouvez tester la modification et la supression des annonces.
+Le designe est pas très jolie... c'est vraiment un projet en tout début de création.
+
 ![alt Exemple application](./images/Exemple1.PNG) 
 
 Cette aplication a besoin :
